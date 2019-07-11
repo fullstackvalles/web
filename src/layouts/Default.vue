@@ -4,7 +4,7 @@
       <h1 class="header__logo">
         <g-link to="/"><g-image :alt="$static.metaData.siteName" src="~/assets/img/fsv-logo-shadow.png" width="400" quality="75"></g-image></g-link>
       </h1>
-      <h2 class="header__subtitle">Un meetup de desenvolupament web que no es fa a Barcelona</h2>
+      <h2 class="header__subtitle">Una trobada de desenvolupament web que no es fa a Barcelona</h2>
 
       <ul class="links">
         <li class="links__item" v-for="link in links">
